@@ -1,4 +1,4 @@
-react 项目初始化
+react 项目搭建,配合[node项目搭建](https://github.com/Notdefind/node-project)食用
 
 ## 功能点:
 * 统一配置API请求
@@ -6,7 +6,6 @@ react 项目初始化
 * 路由 redux 模块化配置
 * 添加项目全局配置
 
-[node项目初始化](https://github.com/Notdefind/node-project)
 
 ## 项目相关依赖
 * [react](https://github.com/facebook/react)
