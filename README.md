@@ -1,6 +1,6 @@
 react 项目初始化
 
-node项目初始化(https://github.com/Notdefind/node-project)
+[node项目初始化](https://github.com/Notdefind/node-project)
 
 ## 项目相关依赖
 * [react](https://github.com/facebook/react)
@@ -50,7 +50,7 @@ $ npm start
 │   └── main.js              # 服务端程序入口文件
 ├── src                      # 程序源文件
 │   ├── main.js              # 程序启动和渲染
-│   ├── api             	   # restful 服务器接口
+│   ├── api                  # restful 服务器接口
 │   ├── components           # 全局可复用的表现组件
 │   ├── containers           # 全局可复用的容器组件
 │       └──HomePage          # 业务模块
