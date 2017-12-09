@@ -50,13 +50,19 @@ $ npm start
 │   └── main.js              # 服务端程序入口文件
 ├── src                      # 程序源文件
 │   ├── main.js              # 程序启动和渲染
-│   ├── api             		 # restful 服务器接口
+│   ├── api             	   # restful 服务器接口
 │   ├── components           # 全局可复用的表现组件
 │   ├── containers           # 全局可复用的容器组件
+│       └──HomePage          # 业务模块
+|          └──assets         # 依赖资源
+|          └──Home           # 页面
+|          └──components     # 模块复用组件
 │   ├── services             # 服务类相关文件
 │   ├── static               # 静态文件
 │   ├── styles               # 程序样式
 │   ├── store                # Redux指定块
+│   ├── utils                # 工具类函数
+│   ├── polyfills            # 处理兼容相关
 │   └── routes               # 主路由和异步分割点
 └── tests                    # 单元测试
 ```
