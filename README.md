@@ -1,5 +1,11 @@
 react 项目初始化
 
+##功能点:
+* 统一配置API请求
+* 开发 测试 预发 生产环境配置 及debug
+* 路由 redux 模块化配置
+* 添加项目全局配置
+
 [node项目初始化](https://github.com/Notdefind/node-project)
 
 ## 项目相关依赖
