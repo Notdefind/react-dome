@@ -1,5 +1,4 @@
 import { browserHistory } from 'react-router'
-import { stringify } from './query-string'
 // const browserHistory = hashHistory
 
 const push = (url) => {

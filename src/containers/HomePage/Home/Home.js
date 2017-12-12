@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Navigator from 'utils/router'
 
 export default class Home extends Component {
   constructor(props) {
@@ -13,7 +14,9 @@ export default class Home extends Component {
     const { projectInfo } = this.props
 
     return (
-      <div>{projectInfo}</div>
+      <div onClick={() => {
+        Navigator.push('/list')
+      }}>{projectInfo}</div>
     )
   }
 }
